@@ -54,6 +54,7 @@ describe('random-float', function () {
     expect(randomFloat({
       min: -1,
       max: -1,
+      inspected: true
     })).be.be.equal(-1);
 
     expect(randomFloat({

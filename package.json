@@ -1,6 +1,6 @@
 {
   "name": "random-floating",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Return a random floating point number.",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,6 @@
     "decimal",
     "float",
     "double",
-    "num",
     "number",
     "generator",
     "generate",
@@ -50,7 +49,7 @@
   "dependencies": {
     "clamp": "^1.0.1",
     "max-safe-int": "^1.0.0",
-    "object-assign": "^4.0.1",
+    "random-integral": "^1.0.3",
     "to-integer": "^1.0.1",
     "tofixed": "^1.0.0"
   }
